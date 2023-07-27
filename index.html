@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+
+    <div class="main">
+       <div id="editor">
+            <header>
+                <input type="number" min="10" max="120" value="16" id="size" onchange="fontsize(this)">
+                <button class="sim-but" onclick="left()"><i  class="fa-solid  fa-align-left"></i></button>
+                <button class="sim-but" onclick="center()"><i class="fa-solid fa-align-center"></i></button>
+                <button class="sim-but" onclick="right()"><i class="fa-solid fa-align-right"></i></button>
+                <button class="sim-but" onclick="bold()"><i class="fa-solid fa-bold"></i></button>
+                <button class="sim-but" onclick="italic()"><i class="fa-solid fa-italic"></i></button>
+                <button class="sim-but" onclick="underline()"><i class="fa-solid fa-underline"></i></button>
+                <input type="color" class="sim-but" onchange="textcolor(this)">
+                <input type="color" class="sim-but" onchange="bgcolor(this)">
+                <button class="sim-but" onclick="textdel(this)">delete</button>
+            </header>
+            <div id="text-area" contenteditable="True">
+
+            </div>
+
+       </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>

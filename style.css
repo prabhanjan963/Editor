@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}       
+
+.main{
+ width: 1530px;
+ height: 760px;
+ background-color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;  
+}
+#editor{
+    width: 800px;
+    height: 600px;
+    background-color: ;
+    box-shadow: 0 5px 10px 0 rgba(241, 239, 239, 0.79),0 7px 21px 0 rgba(234, 230, 230, 0.79);
+}
+header{
+width:800px;
+height: 60px;
+background: black;
+}
+#text-area{
+    width: 800px;
+    height: 600px;
+    background: white;
+    outline: 0;
+    overflow: hidden;
+}
+#size{
+    width: 50px;
+    height: 27px;
+    margin-top: px;
+}
+.sim-but{
+    width: 40px;
+    height: 30px;
+}
+.sim-but i{
+    font-size: 20px;
+}
